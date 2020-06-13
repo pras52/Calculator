@@ -16,7 +16,7 @@ public class Calculate {
         double first = reader.nextDouble();
         double second = reader.nextDouble();
 
-        System.out.print("Enter an operator (+, -, *, /): ");
+        System.out.print("Enter an operator which you want to perform (+, -, *, /): ");
         char operator = reader.next().charAt(0);
 
         double result;
